@@ -3,10 +3,10 @@
 int main()
 {
 
-    /* Array of 20 characters */
-    char str[20];
+    /* Array of 30 characters */
+    char str[30];
 
-    printf("Enter a string\n");
+    printf("Enter a string :\n");
     /*
     ** gets() will wait for input.
     ** Enter a string as input and
@@ -14,7 +14,7 @@ int main()
     */
     gets(str);
 
-    printf("You have entered below String:\n");
+    printf("You have entered below String :\n");
     /*
     ** puts() will display the string
     ** stored in 'ch'.
@@ -22,3 +22,5 @@ int main()
     puts(str);
     return 0; 
 }
+
+

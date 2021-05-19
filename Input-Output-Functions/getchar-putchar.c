@@ -3,7 +3,7 @@
 int main()
 {
     char ch;
-    printf("Enter a Character\n");
+    printf("Enter a Character :\n");
     /*
     ** getchar() will wait for input.
     ** Enter a character as input and
@@ -11,7 +11,7 @@ int main()
     */
     ch = getchar();
 
-    printf("You have entered below Character:\n");
+    printf("You have entered below Character :\n");
     /*
     ** putchar() will display the character
     ** stored in 'ch'.
@@ -19,3 +19,6 @@ int main()
     putchar(ch);
     return 0;
 }
+
+
+
