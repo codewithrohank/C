@@ -2,11 +2,10 @@
 
 int main()
 {
-
     /* Declare an integer */
     int i;
 
-    printf("Enter a Number\n");
+    printf("Enter a Number :\n");
     /*
     ** scanf() will wait for input. Enter a number
     ** as input and that will be stored in 'i'.
@@ -19,7 +18,9 @@ int main()
     ** printf() will display the number
     ** stored in 'i'.
     */
-    printf("You have entered the Number:%d\n", i);
+    printf("You have entered the Number :\n%d\n", i);
 
     return 0; 
 }
+
+

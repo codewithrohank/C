@@ -6,10 +6,10 @@ int main()
     char str1[30];
     char str2[30];
 
-    printf("Enter first string with spaces\n");
+    printf("Enter first string with spaces :\n");
     scanf("%[^\n]", str1);
 
-    printf("Enter second string with spaces\n");
+    printf("Enter second string with spaces :\n");
     scanf("%s", str2);
 
     /*
