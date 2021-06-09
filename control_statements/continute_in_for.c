@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    printf("Code with Rohan\n");
+
+    for(i = 0; i < 3; i++)
+    {
+        printf("Like - %d\n", i);
+        continue;
+        printf("Share - %d\n", i);
+    }
+    return 0;
+}
+
