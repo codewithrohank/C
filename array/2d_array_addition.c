@@ -1,3 +1,23 @@
+/*
+**  Code With Rohan : https://www.instagram.com/codewithrohank/
+**  
+**  Carry forward addition using 2D Array.
+**  Addition will be stored in the last row.
+**  e.g. for 3x5 Array:
+**          Input = 
+**                  1  2  3  4  5
+**                  6  8  9  7  6
+**          Output = 
+**                  1  2  3  4  5
+**                  6  8  9  7  6
+**                  8  1  3  2  1   
+**
+**  Note : Carry after last addition will be ignored here.
+**         If you want to accomodate the carry in the last addition, 
+**         then just add another condition check for 
+**         (j == rows) and then add using "arr[j-1][i] = sum;"   
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
